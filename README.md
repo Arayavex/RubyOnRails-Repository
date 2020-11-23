@@ -28,22 +28,22 @@
         - Ejm: price = 18.5 \n price.class \ Output: Float
   
   - Sintaxis de Metodos o Funciones en Ruby on Rails:
-            def //start the method 
-            //content
-            end //end the method
-            ----------------------------
-            def (name(parameter1))//start the method 
-            //content
-            end //end the method
-            ----------------------------
-            def (name(parameter1, parameter2))//start the method 
-            //content
-            end //end the method
-              ----------------------------
-            def (name(parameter1, parameter2))//start the method 
-            //content
-            return
-            end //end the method
+            def //start the method  
+            //content  
+            end //end the method  
+            ----------------------------  
+            def (name(parameter1))//start the method   
+            //content  
+            end //end the method  
+            ----------------------------  
+            def (name(parameter1, parameter2))//start the method  
+            //content  
+            end //end the method  
+              ----------------------------  
+            def (name(parameter1, parameter2))//start the method   
+            //content  
+            return  
+            end //end the method  
 
   - def (name): se utiliza para crear un metodo y a la par se le pone el nombre del metodo.
         - Ejm: def suma  1 + 1 end
@@ -52,4 +52,14 @@
   - def suma(variable1, variable2): lo mismo que la anterior solo que recibe 2 datos por parametro y asi sucesivamente si se necesitan mas parametros.
         - Ejm: def suma(num1, num2) puts num1 + num2 end
   - return: la palabra reservada return se utiliza dentro de un metodo para retornar algun valor.
+  - gets.to_i : el '.to_i' es una funcion de gets que convierte un String a un Integer
+  
+  - Sintaxis de la estructura de datos Array:
+            name_array = ["String1", "String2", "String3", ...] --> Array con datos quemados  
+            name_array = [] --> Array vacio  
+            name_array = Array.new --> funcion de Array para crar arrays de otra manera
+
+  - Array.new : El '.new' es una funcion para crear arrays y esta misma se puede utilizar de varias maneras como en el siguiente ejemplo donde el array se crea con la cantidad de datos que el usuario desee:
+          - Ejm: array_ejemplo = Array.new(3, "MSI") --> Output: ["MSI", "MSI", "MSI"]
+
 
