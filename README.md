@@ -5,7 +5,7 @@
  - ruby -v : muestra la version de Ruby (con esto se valida que todo funciona correctamente)
  - irb : consola interactiva de Ruby para probar el lenguaje de Ruby
  - puts "String" : imprimir un string con salto de linea
- - pirnt "String": imprimir un string sin salto de linea
+ - print "String": imprimir un string sin salto de linea
  - exit() : salirse del irb de Ruby
  - Ejecutar programas .rb :
 	1. Crear un file .rb en un editor de texto (VS Code, Atom, Sublime...)
