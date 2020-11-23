@@ -22,7 +22,7 @@
   - Comillas ' ' : Se utilizan para simplemente imprimir texto plano de un String
   - gets: es una funcion que se utiliza para obtener datos desde la consola por parte del usuario
   - gets.chomp: la funcion chomp es para eliminar los saltos de linea cuando se usa 'gets' a la hora de imprimir
-  - variable.class : eso permite identificar el tipo de dato de la variable: 
+  - variable.class : eso permite identificar el tipo de dato de la variable:  
         - Ejm: name = "Alex" \n name.class \n Output: String  
         - Ejm: age = 17 \n age.class \n Output: Fixnum or Integer  
         - Ejm: price = 18.5 \n price.class \ Output: Float  
