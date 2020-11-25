@@ -61,5 +61,13 @@
 
   - Array.new : El '.new' es una funcion para crear arrays y esta misma se puede utilizar de varias maneras como en el siguiente ejemplo donde el array se crea con la cantidad de datos que el usuario desee:  
           - Ejm: array_ejemplo = Array.new(3, "MSI") --> Output: ["MSI", "MSI", "MSI"]
+  - Array << "String" : Se agrega un elemento al final del array
+  - Array.push : Es igual que utilizar "<<" solo que ahora con la funcion push y agrega el dato al final del array.
+  - Array += ["String1", "String2"]: el "+=" permite al usuario poder agregar mas de un elemento al array acomodandolos dentro de los parentesis cuadrados.
+  - Array.unshift : Se utiliza la funcion unshift para agregar nuevos elementos al incio del array.
+  - Array.shift : Se utiliza la funcion shift para eliminar datos del array.
+  - Array.pop : Se utiliza para remover o agarrar un elemento al final del array y ademas se puede guardar el mismo en una variable
+  - Array.drop(qty) : Se define dentro de la funcion drop() cuantos elementos desea eliminar del array y despues la misma se encarga de eliminarlos de izquierda a derecha empezando por la posicion 0 y ademas puede guardar una copia de los datos restantes en otra variable
+  - Array.slice(position1, position2) : Se encarga de tomar un "slice" del array a partir del rango de posiciones que se defina dentro de los parentesis de la funcion e imprime ese extracto de datos que le hizo al array.
 
 
